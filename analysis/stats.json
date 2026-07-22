@@ -1,0 +1,142 @@
+{
+  "method": {
+    "origin": {
+      "lat": 53.7976,
+      "lon": -1.5419,
+      "name": "Briggate, Leeds"
+    },
+    "departures": [
+      "08:00",
+      "08:10",
+      "08:20 (averaged)"
+    ],
+    "walking": "4.8 km/h, crow-fly x1.3, max 20 min access/egress walk",
+    "router": "RAPTOR, unlimited transfers (1 min boarding penalty after first ride)",
+    "population": "Census 2021 LSOA population-weighted centroids within 30 km",
+    "modern_service_date": "20260616"
+  },
+  "total_population_30km": 2622182.0,
+  "eras": {
+    "tram_1950s": {
+      "n_stops": 139,
+      "n_trips": 1883,
+      "stops_reachable_30min": 134,
+      "population_curve": {
+        "5": 0.0,
+        "10": 9782.0,
+        "15": 39788.0,
+        "20": 91978.0,
+        "25": 144686.0,
+        "30": 210110.0,
+        "35": 246917.0,
+        "40": 289781.0,
+        "45": 311452.0,
+        "50": 324131.0,
+        "55": 332468.0,
+        "60": 346869.0
+      },
+      "isochrone_area_km2": {
+        "10": 2.2,
+        "20": 16.0,
+        "30": 41.0,
+        "40": 60.3,
+        "50": 66.7,
+        "60": 68.9
+      }
+    },
+    "full_1957": {
+      "n_stops": 1257,
+      "n_trips": 8651,
+      "stops_reachable_30min": 1144,
+      "population_curve": {
+        "5": 0.0,
+        "10": 58005.0,
+        "15": 145096.0,
+        "20": 250455.0,
+        "25": 351783.0,
+        "30": 432570.0,
+        "35": 493090.0,
+        "40": 538302.0,
+        "45": 568471.0,
+        "50": 595720.0,
+        "55": 622575.0,
+        "60": 647858.0
+      },
+      "isochrone_area_km2": {
+        "10": 7.1,
+        "20": 48.9,
+        "30": 103.6,
+        "40": 148.5,
+        "50": 181.0,
+        "60": 198.5
+      }
+    },
+    "modern": {
+      "n_stops": 18844,
+      "n_trips": 17473,
+      "stops_reachable_30min": 964,
+      "population_curve": {
+        "5": 0.0,
+        "10": 5872.0,
+        "15": 28805.0,
+        "20": 77354.0,
+        "25": 160230.0,
+        "30": 256065.0,
+        "35": 344454.0,
+        "40": 469049.0,
+        "45": 559002.0,
+        "50": 658330.0,
+        "55": 740271.0,
+        "60": 818605.0
+      },
+      "isochrone_area_km2": {
+        "10": 1.4,
+        "20": 13.2,
+        "30": 50.2,
+        "40": 117.6,
+        "50": 213.6,
+        "60": 345.2
+      }
+    }
+  },
+  "walk_only_curve": {
+    "5": 0.0,
+    "10": 5872.0,
+    "15": 19796.0,
+    "20": 25917.0,
+    "25": 38191.0,
+    "30": 52405.0,
+    "35": 73674.0,
+    "40": 111788.0,
+    "45": 138720.0,
+    "50": 166070.0,
+    "55": 194965.0,
+    "60": 224951.0
+  },
+  "corridor_comparison": {
+    "definition": "LSOA centroids within 800 m of a 1950s tram stop",
+    "n_lsoas": 125,
+    "population": 214346.0,
+    "mean_tt_tram_1950s_min": 21.9,
+    "mean_tt_modern_min": 25.7,
+    "median_tt_tram_1950s_min": 23.2,
+    "median_tt_modern_min": 26.2,
+    "pop_within_30_tram_1950s": 181970.0,
+    "pop_within_30_modern": 151466.0,
+    "pop_faster_by_tram": 147619.0,
+    "pop_faster_by_modern": 4824.0,
+    "pop_about_the_same": 61903.0
+  },
+  "full_network_comparison": {
+    "definition": "LSOA centroids within 800 m of any 1957 stop (tram or bus)",
+    "n_lsoas": 361,
+    "population": 612318.0,
+    "mean_tt_full_1957_min": 25.2,
+    "mean_tt_modern_min": 33.5,
+    "pop_within_30_full_1957": 431003.0,
+    "pop_within_30_modern": 254498.0,
+    "pop_faster_in_1957": 535526.0,
+    "pop_faster_now": 21908.0,
+    "pop_about_the_same": 54884.0
+  }
+}
